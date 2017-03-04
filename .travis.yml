@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "4.2.2"
 script: 
-  - "Echo Deploying"
+  - echo "Deploying"
 install:
   - npm install -g firebase-tools
 after_success:

@@ -45,4 +45,6 @@
 
 	console.assert( message === 'Hello, jurerick.porras@gmail.com', `Wrong Email ${myCtrl.object.email}` );
 
+	console.log("DONE");
+
 }());
